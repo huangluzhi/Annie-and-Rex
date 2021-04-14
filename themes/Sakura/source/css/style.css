@@ -3926,6 +3926,7 @@ li.feature-2 {
     height:550px;
     margin:0;
     padding:0;
+    background-position:center;
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
@@ -3952,10 +3953,11 @@ li.feature-2 {
         top: 98px !important;
     }
     .top-social_v2 li {
-        margin-right: 0px !important; 
+        margin-right: 0px !important;
         cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/ayuda.cur),auto !important;
     }
 }
+
 #bgvideo {
     position: absolute;
     top: 0px !important;
@@ -4087,7 +4089,8 @@ li.feature-2 {
     line-height:30px;
     border-radius:10px;
     box-sizing:initial;
-    white-space:nowrap
+    word-break:normal;
+    white-space:normal
 }
 .header-info:before {
     content:"";
