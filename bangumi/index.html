@@ -36,8 +36,8 @@
   mashiro_option.site_name = "Annie & Rex 🎁💝🏫🎄Our Story";
   mashiro_option.author_name = "🏫🎄Our Story";
   mashiro_option.site_url = "";
-  mashiro_option.v_appId = "GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz";
-  mashiro_option.v_appKey = "mgOpfzbkHYqU92CV4IDlAUHQ";
+  mashiro_option.v_appId = "isTIkptqJAV1sfzpMpCvsia7-gzGzoHsz";
+  mashiro_option.v_appKey = "BL9EPI1VKJS2UTkjg8lwqHS9";
   mashiro_option.mathjax = "0";
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/";
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
@@ -77,7 +77,7 @@
         </a>
       </div>
       <div class="header-info">
-        <p>Please Take My Hand, Then We Can Travel To The Moon🌙</p>
+        <p class="mytt">Please Take My Hand, Then We Can Travel To The Moon🌙</p>
         <div class="top-social_v2">
           <li id="bg-pre">
             <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
@@ -107,13 +107,14 @@
     </span>
   </div>
 </div>
+
     <div id="page" class="site wrapper">
       <header class="site-header no-select gizle sabit" role="banner">
   <div class="site-top">
     <div class="site-branding">
       <span class="site-title">
         <span class="logolink moe-mashiro">
-          <a href="/">
+          <a href="/Annie-and-Rex/">
             <span class="sakurasono">Annie &amp; Rex 🎁💝</span>
             <span class="shironeko">🏫🎄Our Story</span>
           </a>
@@ -136,6 +137,36 @@
       <div class="lower">
         <nav class="mobile-fit-control hide">
           <ul id="menu-new" class="menu">
+            
+              <li>
+                <a href="/Annie-and-Rex/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+                    首页
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/Annie-and-Rex/archives">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    归档
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/Annie-and-Rex/comment/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+                    留言板
+                  </span>
+                </a>
+                
+              </li>
             
           </ul>
         </nav>
@@ -292,11 +323,31 @@
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
       </div>
-      <p style="color: #666666;">&copy 2018</p>
+      <p style="color: #666666;">
+        &copy 2021 Annie & Rex | It has been
+        <span id="times" style="color: rgb(255, 0, 0);"></span>
+         since we fall in love</p>
+         <script>
+            var now = new Date();
+            function createtime() {
+                var grt= new Date("09/08/2020 16:33:44");//start time(月/日/年)
+                now.setTime(now.getTime()+250);
+                days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+                hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+                if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+                mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+                seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+                snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+                //document.getElementById("timeDate").innerHTML = " 我们已经"
+                document.getElementById("times").innerHTML = dnum +" days ";
+                document.getElementById("times").style.color="#FF0000";
+            }
+            setInterval("createtime()",250);
+        </script>
     </div>
     <div class="footer-device">
     <p style="font-family: 'Ubuntu', sans-serif;">
-        <span style="color: #b9b9b9;">Theme <a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> by <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a>&<a href="https://www.hojun.cn/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hojun</a>, Powered by Hexo, Hosted by Coding Pages</a>
+        <span style="color: #b9b9b9;">Theme<a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> by <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a>&<a href="https://www.hojun.cn/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hojun</a>, Powered by Hexo, Hosted by Coding Pages</a>
         </span>
       </p>
     </div>
@@ -392,6 +443,36 @@ $(document).ready(function() {
     
   </p>
   <ul id="menu-new-1" class="menu">
+    
+      <li>
+        <a href="/Annie-and-Rex/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+            首页
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/Annie-and-Rex/archives">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            归档
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/Annie-and-Rex/comment/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+            留言板
+          </span>
+        </a>
+        
+      </li>
     
   </ul>
   <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2019 hexo-sakura</p>

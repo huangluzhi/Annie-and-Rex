@@ -6,7 +6,7 @@
   <link href="/Annie-and-Rex/atom.xml" rel="self"/>
   
   <link href="/Annie-and-Rex/"/>
-  <updated>2021-04-12T13:19:52.539Z</updated>
+  <updated>2021-04-14T14:14:33.032Z</updated>
   <id>/Annie-and-Rex/</id>
   
   <author>
@@ -17,46 +17,48 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="/Annie-and-Rex/2021/04/12/hello-world/"/>
-    <id>/Annie-and-Rex/2021/04/12/hello-world/</id>
-    <published>2021-04-12T13:19:52.539Z</published>
-    <updated>2021-04-12T13:19:52.539Z</updated>
+    <title>（一）网友见面</title>
+    <link href="/Annie-and-Rex/2020/09/03/%E6%B9%BF%E6%BC%89%E6%BC%89%E7%9A%84%E5%A4%8F%E5%A4%A9/"/>
+    <id>/Annie-and-Rex/2020/09/03/湿漉漉的夏天/</id>
+    <published>2020-09-03T10:43:54.000Z</published>
+    <updated>2021-04-14T14:14:33.032Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
+      Our Flowers is about to Blossom finally🌸
     
     </summary>
     
+      <category term="Story" scheme="/Annie-and-Rex/categories/Story/"/>
+    
+    
+      <category term="Love Story" scheme="/Annie-and-Rex/tags/Love-Story/"/>
+    
+      <category term="Shantou" scheme="/Annie-and-Rex/tags/Shantou/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="/Annie-and-Rex/2018/12/12/Hexo-Theme-Sakura/"/>
-    <id>/Annie-and-Rex/2018/12/12/Hexo-Theme-Sakura/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2021-04-12T14:16:24.808Z</updated>
+    <title>6.15 Long Time No See...</title>
+    <link href="/Annie-and-Rex/2020/06/14/6.15%20Long%20Time%20No%20See/"/>
+    <id>/Annie-and-Rex/2020/06/14/6.15 Long Time No See/</id>
+    <published>2020-06-14T14:16:01.000Z</published>
+    <updated>2021-04-14T14:06:00.296Z</updated>
     
     <summary type="html">
     
-      hexo-sakura主题使用教程
+      Hi hi?
     
     </summary>
     
-      <category term="技术" scheme="/Annie-and-Rex/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="Story" scheme="/Annie-and-Rex/categories/Story/"/>
     
     
-      <category term="web" scheme="/Annie-and-Rex/tags/web/"/>
+      <category term="Love Story" scheme="/Annie-and-Rex/tags/Love-Story/"/>
     
-      <category term="悦读" scheme="/Annie-and-Rex/tags/%E6%82%A6%E8%AF%BB/"/>
+      <category term="Shantou" scheme="/Annie-and-Rex/tags/Shantou/"/>
+    
+      <category term="Germany" scheme="/Annie-and-Rex/tags/Germany/"/>
     
   </entry>
   
