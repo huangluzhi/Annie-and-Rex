@@ -1413,15 +1413,17 @@ a:hover,a:active {
 .site-top .lower-cantiner {
     position:absolute;
     left:50%;
-    min-width:758.4px;
+    transform: translate(-50%,0%);
+    /*min-width:758.4px;*/
     pointer-events:none
 }
 .site-top .lower {
     display:inline-block;
     margin:15px 0 0 10px;
     font-size:16px;
-    position:relative;
-    left:-50%;
+    /*position:relative;*/
+    /*left:50%;*/
+    /*transform: translate(-50%,0%);*/
     pointer-events:auto !important
 }
 #show-nav.mobile-fit {
@@ -1435,7 +1437,8 @@ a:hover,a:active {
     left:280px
 }
 .site-top .lower-cantiner {
-    left:0
+    position:relative;
+    /*left:0*/
 }
 .site-top .lower nav.hide {
     display:none !important
