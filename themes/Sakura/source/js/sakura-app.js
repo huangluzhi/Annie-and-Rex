@@ -583,12 +583,13 @@ function nextBG() {
       bgindex = bgindex + 1
       //console.log(bg[Math.abs(bgindex % bg.length)])
       $('.centerbg').css('background-image', 'url("' + bg[Math.abs(bgindex % bg.length)] + '")')
-		preloadImg(imgWrap, bgindex)
       var timer3 = window.setInterval(function () {
         val = val + 0.05
         pics.style.opacity = val
-        if (val >= 1)
+        if (val >= 1){
           window.clearTimeout(timer3);
+		  preloadImg(imgWrap, bgindex)
+		}
       }, 15);
     }
   }, 13);
@@ -606,12 +607,13 @@ function preBG() {
       bgindex = bgindex - 1
       //console.log(bg[Math.abs(bgindex % bg.length)])
       $('.centerbg').css('background-image', 'url("' + bg[Math.abs(bgindex % bg.length)] + '")')
-      preloadImg(imgWrap, bgindex)
 	  var timer3 = window.setInterval(function () {
         val = val + 0.05
         pics.style.opacity = val
-        if (val >= 1)
+        if (val >= 1){
           window.clearTimeout(timer3);
+		  preloadImg(imgWrap, bgindex)
+		}
       }, 15);
     }
   }, 13);
