@@ -11,7 +11,7 @@ pjax: 1
 # 1开启
 mathjax: 0
 
-notice: hexo-Sakura主题已经开源，目前正在开发中...
+notice: 欢迎做客！请随便逛逛~
 lazyloadImg:
 
 menus:
@@ -52,6 +52,10 @@ bg:
   - /Annie-and-Rex/images/cover/(2).jpg.webp
   - /Annie-and-Rex/images/cover/(3).jpg.webp
   - /Annie-and-Rex/images/cover/(4).jpg.webp
+  - /Annie-and-Rex/images/cover/(5).jpg.webp
+  - /Annie-and-Rex/images/cover/(6).jpg.webp
+  - /Annie-and-Rex/images/cover/(7).jpg.webp
+  - /Annie-and-Rex/images/cover/(8).jpg.webp
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-grid

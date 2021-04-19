@@ -556,18 +556,34 @@ $(document).ready(function () {
   add_upload_tips()
 })
 
+var imgWrap = [];
+preloadImg(imgWrap, bgindex);
+function preloadImg(imgWrap, i){
+	  if (!imgWrap[(i - 1) % bg.length]){
+		imgWrap[(i - 1) % bg.length] = new Image();
+		imgWrap[(i - 1) % bg.length].src = bg[Math.abs((i - 1) % bg.length)];
+		//console.log(imgWrap[(i - 1) % bg.length])
+	  }
+	  if (!imgWrap[(i + 1) % bg.length]){
+		imgWrap[(i + 1) % bg.length] = new Image();
+		imgWrap[(i + 1) % bg.length].src = bg[Math.abs((i + 1) % bg.length)];
+		//console.log(imgWrap[(i + 1) % bg.length])
+	  }
+}
+
 function nextBG() {
   var pics = document.getElementById("centerbg");
   pics.style.opacity = 1;
-  var val = 1
+  var val = 1;
   var timer2 = window.setInterval(function () {
     val = val - 0.05
     pics.style.opacity = val
     if (val <= 0) {
       window.clearTimeout(timer2);
       bgindex = bgindex + 1
-      console.log(bg[Math.abs(bgindex % bg.length)])
+      //console.log(bg[Math.abs(bgindex % bg.length)])
       $('.centerbg').css('background-image', 'url("' + bg[Math.abs(bgindex % bg.length)] + '")')
+		preloadImg(imgWrap, bgindex)
       var timer3 = window.setInterval(function () {
         val = val + 0.05
         pics.style.opacity = val
@@ -588,9 +604,10 @@ function preBG() {
     if (val <= 0) {
       window.clearTimeout(timer2);
       bgindex = bgindex - 1
-      console.log(bg[Math.abs(bgindex % bg.length)])
+      //console.log(bg[Math.abs(bgindex % bg.length)])
       $('.centerbg').css('background-image', 'url("' + bg[Math.abs(bgindex % bg.length)] + '")')
-      var timer3 = window.setInterval(function () {
+      preloadImg(imgWrap, bgindex)
+	  var timer3 = window.setInterval(function () {
         val = val + 0.05
         pics.style.opacity = val
         if (val >= 1)
